@@ -1,3 +1,16 @@
+#eksctl create cluster \
+  --name shrikant-cluster \
+  --region ap-south-1 \
+  --nodegroup-name ng-t2medium \
+  --node-type t2.medium \
+  --nodes 3 \
+  --nodes-min 1 \
+  --nodes-max 4 \
+  --managed
+
+
+
+
 # Tomato (zomato clone)
 
 **Live App Demo Link:** [Zomato Clone Live App Demo](https://zomatoclone.koushilmankali.in/)
